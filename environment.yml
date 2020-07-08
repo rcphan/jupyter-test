@@ -1,0 +1,16 @@
+# use/edit this file only for working with fastai-0.7.x version
+# for fastai-1.0+ edit "setup.py" and use "pip install -e ."
+# or "pip install -e .[dev]" for extra developer requirements
+name: jupyter-test
+channels:
+- defaults
+dependencies:
+- python>=3.6.0
+- numpy
+- opencv-python
+- traceback
+- pip
+- pip:
+  - opencv-python
+  - numpy
+  - traceback
