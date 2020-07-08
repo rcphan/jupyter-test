@@ -7,8 +7,7 @@ channels:
 dependencies:
 - python>=3.6.0
 - numpy
-- opencv-python
-- traceback
+- opencv
 - pip
 - pip:
   - opencv-python
